@@ -3,6 +3,7 @@
 	var/base_icon_state = "shield"
 	var/passive_block = 15 // Percentage chance used in prob() to block incoming attack
 	var/readied_block = 30
+	var/projectile_modifier = 0 //Linear modifier for blocking projectiles.
 	var/readied_slowdown = SLOWDOWN_ARMOR_VERY_LIGHT // Walking around in a readied shield stance slows you! The armor defs are a useful existing reference point.
 	var/shield_readied = FALSE
 

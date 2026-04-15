@@ -113,7 +113,6 @@ Contains most of the procs that are called when a mob is attacked by something
 			var/obj/item/weapon/shield/S = l_hand
 			var/shield_blocked_l = FALSE
 			if(S.shield_readied && prob(S.readied_block)) // User activated his shield before the attack. Lower if it blocks.
-				S.lower_shield(src)
 				shield_blocked_l = TRUE
 			else if(prob(S.passive_block))
 				shield_blocked_l = TRUE
@@ -139,7 +138,6 @@ Contains most of the procs that are called when a mob is attacked by something
 			var/shield_blocked_r = FALSE
 			if(S.shield_readied && prob(S.readied_block)) // User activated his shield before the attack. Lower if it blocks.
 				shield_blocked_r = TRUE
-				S.lower_shield(src)
 			else if(prob(S.passive_block))
 				shield_blocked_r = TRUE
 
