@@ -122,6 +122,11 @@
 	passive_block = 40
 	readied_block = 60
 
+/obj/item/weapon/shield/riot/metal/supertest
+	name = "super shield"
+	passive_block = 300
+	readied_block = 300
+
 /obj/item/weapon/shield/riot/ballistic //FOR THE ROYAL MARINE SPEC DO NOT TOUCH SMELLY MAN
 	name = "FBS-B Ballistic shield"
 	desc = "Ballistic shield used by the royal marines commando. This shield is commonly used during boarding actions due to its lightweight but durable design."
